@@ -7,16 +7,13 @@ public class Motor {
     int registro;
 
     // MÉTODOS
-
-    void setcambiarRegistro(int registro) {
+    void cambiarRegistro(int registro) {
         this.registro = registro;
     }
 
-    void setasignarTipo(String tipo) {
+    void asignarTipo(String tipo) {
         if (tipo == "electrico" || tipo == "gasolina") {
             this.tipo = tipo;
         }
-
     }
-
 }
