@@ -12,7 +12,7 @@ public class Auto {
 
     
 
-    int getcantidadAsientos() {
+    int cantidadAsientos() {
         int loca = 0;
         for (int i = 0; i < asientos.length; i++) {
             if (asientos[i] != null) {
@@ -22,7 +22,7 @@ public class Auto {
         return loca;
     }
 
-    String getverificarIntegridad() {
+    String verificarIntegridad() {
         if (registro == motor.registro) {
             for (int i = 0; i < asientos.length; i++) {
                 if (asientos[i] != null) {
