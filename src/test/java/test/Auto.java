@@ -1,7 +1,7 @@
 package test;
 
 public class Auto {
-    // Atributos
+  
     String modelo;
     int precio;
     Asiento[] asientos;
@@ -10,7 +10,7 @@ public class Auto {
     int registro;
     static int cantidadCreados;
 
-    // MÉTODOS
+    
 
     int getcantidadAsientos() {
         int loca = 0;
