@@ -34,5 +34,15 @@ public class TestAtributos {
 	@Test
    	public void testAtributosAuto(){
 		
-package test;
+		Auto v = new Auto();
+		v.asientos = new Asiento[5];
+		v.marca = "tesla";
+		v.modelo = "model 3";
+		v.motor = new Motor();
+		v.precio = 33000;
+		v.registro = 341;
+		
+		assertTrue(true, "Hay un problema con los atributos de la Clase Auto");
+    }
 
+}
