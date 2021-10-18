@@ -4,7 +4,7 @@ public class Auto {
     // Atributos
     String modelo;
     int precio;
-    Asientos[] asientos;
+    Asiento [] asientos;
     String marca;
     Motor motor;
     int registro;
@@ -12,7 +12,7 @@ public class Auto {
 
     // MÉTODOS
 
-    int getcantidadAsiento() {
+    int getcantidadAsientos() {
         int loca = 0;
         for (int i = 0; i < asientos.length; i++) {
             if (asientos[i] != null) {
@@ -24,7 +24,7 @@ public class Auto {
 
     String getverificarIntegridad() {
         if (registro == motor.registro) {
-            for (inti = 0; i < asientos.length; i++) {
+            for (int i = 0; i < asientos.length; i++) {
                 if (asientos[i] != null) {
                     if (asientos[i].resgistro != registro) {
                         return "Las piezas no son originales";
